@@ -1,8 +1,11 @@
+import Users from './components/users'
+import { MyProvider } from './context'
+
 const App = () => {
   return (
-    <>
-      Hello
-    </>
+    <MyProvider>
+      <Users/>
+    </MyProvider>
   )
 } 
 
